@@ -1,12 +1,25 @@
-# 환경 변수 / 계정 정보
+# 환경 변수
 .env
-
+ 
+# Jupyter
+.ipynb_checkpoints/
+ 
 # Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-venv/
+*.pyo
 .venv/
-
-# OS
+venv/
+env/
+ 
+# OS / 에디터
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+ 
+# 데이터
+*.csv
+*.xlsx
+*.parquet
+data/
